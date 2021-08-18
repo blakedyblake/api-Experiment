@@ -1,0 +1,54 @@
+//This gets Darth Vader but how do I get his height
+http://swapi.dev/api/people/4/
+height= 202
+
+//Alderaan
+http://swapi.dev/api/planets/2
+pop: 2000000000
+
+//Millennium Falcon
+http://swapi.dev/api/starships/10
+manufacturer: Corellian Engineering Corporation
+
+//C3PO
+http://swapi.dev/api/people/2:
+
+
+His species (only one) https://swapi.dev/api/species/2/
+
+
+//Obi-Wan Kenobi
+http://swapi.dev/api/people/10:
+        "https://swapi.dev/api/films/1/",
+        "https://swapi.dev/api/films/2/",
+        "https://swapi.dev/api/films/3/",
+        "https://swapi.dev/api/films/4/",
+        "https://swapi.dev/api/films/5/",
+        "https://swapi.dev/api/films/6/"
+
+        titles [A New Hope,The Empire Strikes Back,Return of the Jedi, The Phantom Menace, Attack of the Clones,Revenge of the Sith]
+
+links
+
+//Search
+http://swapi.dev/api/starships/?search=Millennium%20Falcon
+
+///////////////////////////Part 2/////////////////////////////
+1d\ It's expecting a body because that's what you need to post
+2. JSON
+3.  https://practiceapi.devmountain.com/api/posts/555
+4. 404 if it doesn't exist 200 if it doesn't
+5.  https://practiceapi.devmountain.com/api/posts/
+{
+    "text": "Blake!",
+    "date": "8-18-21"
+}
+6. https://practiceapi.devmountain.com/api/posts?id=6823
+{
+     "text" : "Favorite color!"
+}
+7.https://practiceapi.devmountain.com/api/posts/filter?text=blue
+8. https://practiceapi.devmountain.com/api/posts/ 
+Json object
+9. There are permissions going on that don't want people changing certain objects.
+10. It just gives you everything like the ?query=.... isn't There
